@@ -20,7 +20,7 @@ while running:
     #if keys[pygame.K_s]: player.y += 5
     if keys[pygame.K_a]: player.x -= 5
     if keys[pygame.K_d]: player.x += 5
-
+    if keys[pygame.k_espacio]: player.x += 8 #dash
     screen.fill((0, 0, 0))
     screen.blit(fredbear, player)
 
