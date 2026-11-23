@@ -1,6 +1,6 @@
 import pygame
 #poooool para ya! si us plau
-
+#soc el pau
 
 pygame.init()
 ANCHO = 1536
