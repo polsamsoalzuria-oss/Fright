@@ -1,4 +1,6 @@
 import pygame
+#poooool para ya! si us plau
+
 
 pygame.init()
 ANCHO = 1536
