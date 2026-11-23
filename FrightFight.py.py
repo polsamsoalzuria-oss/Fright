@@ -9,7 +9,7 @@ player_puño = pygame.Rect(100, 300, 50, 50)
 
 
 fredbear = pygame.image.load("fredbearv2.png")
-fredbear_puño = pygame.image.load("fredbear_puño.pmg")
+fredbear_puño = pygame.image.load("fredbear_puño.png")
 
 running = True
 while running:
