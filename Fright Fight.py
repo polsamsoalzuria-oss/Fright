@@ -3,6 +3,8 @@ import pygame
 #soc el pau
 #ya no tinc singlot
 
+#jo soc l'alex
+
 pygame.init()
 ANCHO = 1536
 ALTO = 797
