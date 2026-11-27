@@ -1,4 +1,7 @@
+from api_login import *
 import pygame
+
+app="fright"
 
 pygame.init()
 screen = pygame.display.set_mode((1536, 797))
