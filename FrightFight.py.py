@@ -29,6 +29,7 @@ while running:
     if keys[pygame.K_e]: player_puño.x = player.x - 50
     if keys[pygame.K_e]: player_puño.y = player.y
     
+    if keys[pygame.K_SPACE]: player.x += 10 #dash
     screen.fill((0, 0, 0))
     screen.blit(fredbear, player)
     screen.blit(fredbear_puño, player_puño)
