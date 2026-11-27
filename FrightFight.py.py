@@ -5,7 +5,7 @@ screen = pygame.display.set_mode((1536, 797))
 clock = pygame.time.Clock()
 
 player = pygame.Rect(100, 300, 50, 50)
-player_puño = pygame.Rect(100, 300, 50, 50)
+player_puño = pygame.Rect(100, 3000, 50, 50)
 
 
 fredbear = pygame.image.load("fredbearv2.png")
@@ -23,7 +23,9 @@ while running:
     #if keys[pygame.K_s]: player.y += 5
     if keys[pygame.K_a]: player.x -= 5
     if keys[pygame.K_d]: player.x += 5
-
+    if keys[pygame.K_e]: player_puño.x = player.x - 50
+    if keys[pygame.K_e]: player_puño.y = player.y
+    
     screen.fill((0, 0, 0))
     screen.blit(fredbear, player)
     screen.blit(fredbear_puño, player_puño)
